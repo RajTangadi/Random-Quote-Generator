@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  top: 150px;
+  left: 75px;
+  height: 330px;
+  width: 600px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 2px 9px grey;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+#author {
+  position: absolute;
+  bottom: 30px;
+  right: 170px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#author::before{
+content: "--- ";
+}
+
+.top i{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.bottom i{
+  position: absolute;
+  bottom: 85px;
+  right: 45px;
+  font-size: 20px;
+  color: white;
+}
+#text {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  padding: 17px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+
+#randomQuote{
+
+position: absolute;
+bottom: 150px;
+left: 290px;
+padding: 10px;
+background-color: red;
+color: white;
+border-radius: 10px;
+box-shadow: 0px 2px 9px grey;
+}
+
+@media only screen and (min-width:375px) {
+  .container {
+    position: relative;
+    top: 65px;
+    left: 55px;
+    height: 375px;
+    width: 275px;
+   
+  }
+
+  #author {
+    position: absolute;
+    bottom: 7.5px;
+    right: 30px;
+   
+  }
+  .bottom i{
+    position: absolute;
+    bottom: 65px;
+    right: 45px;
+   
+  }
+
+  #randomQuote{
+    position: fixed;
+    bottom: 350px;
+    left: 130px;
+
+
+  }
+
+}
+
+@media only screen and (min-width:480px) {
+  .container {
+    position: relative;
+    top: 75px;
+    left: 55px;
+    height: 375px;
+    width: 375px;
+   
+  }
+
+
+  #randomQuote{
+    position: fixed;
+    bottom: 335px;
+    left: 180px;
+
+
+  }
+
+}
+
+@media only screen and (min-width:600px){
+  .container {
+    position: relative;
+    top: 75px;
+    left: 150px;
+    height: 375px;
+    width: 375px;
+   
+  }
+
+  #randomQuote{
+    position: absolute;
+    bottom:  375px;
+    left: 275px;
+
+  }
+
+}
+
+@media only screen and (min-width:800px){
+  .container {
+    position: relative;
+    top: 75px;
+    left: 220px;
+    height: 375px;
+    width: 375px;
+   
+  }
+
+  #randomQuote{
+    position: fixed;
+    bottom:  325px;
+    left: 355px;
+
+  }
+
+}
+
+
+@media only screen and (min-width:990px){
+  .container {
+    position: relative;
+    top: 75px;
+    left: 340px;
+    height: 375px;
+    width: 375px;
+   
+  }
+
+  #randomQuote{
+    position: fixed;
+    bottom:  325px;
+    left: 29rem;
+
+  }
+
+}
+
+@media only screen and (min-width:1110px){
+  .container {
+    position: relative;
+    top: 75px;
+    left: 420px;
+    height: 375px;
+    width: 375px;
+   
+  }
+
+  #randomQuote{
+    position: fixed;
+    bottom:  325px;
+    left: 35rem;
+
+  }
+
+}
